@@ -1,0 +1,6 @@
+@echo off
+echo Building Flutter Web App...
+flutter build web --release
+
+echo Deploying to GitHub Pages...
+dart run gh_pages
